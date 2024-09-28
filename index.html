@@ -33,15 +33,45 @@
 			 "postalCode": "33200"
 		  },
 		  "telephone": "05 56 67 78 89", 
-		  "socialMedia": [
-				{
-				"@type": "socialMediaPlatform",
-				"socialMediaPlatform": "Instagram",
-				"url": "https://www.instagram.com/ninacarducci.photo/?hl=fr"
-			 	}
-		  ]
+		  "sameAs": "https://www.instagram.com/ninacarducci.photo/?hl=fr"
 		}
 	</script>
+	<!-- LocalBusiness -->
+	<script type="application/ld+json">
+		{
+		  "@context": "https://schema.org",
+		  "@type": "LocalBusiness",
+		  "name": "Nina Carducci Photographie",
+		  "image": "https://ninacarducci.github.io/assets/images/nina.webp", 
+		  "description": "Photographe professionnelle spécialisée dans les portraits, mariages et événements.",
+		  "url": "https://ninacarducci.github.io/",
+		  "telephone": "05 56 67 78 89",
+		  "address": {
+			 "@type": "PostalAddress",
+			 "streetAddress": "68 avenue Alsace-Lorraine",
+			 "addressLocality": "Bordeaux",
+			 "addressRegion": "Nouvelle-Aquitaine",
+			 "postalCode": "33200",
+			 "addressCountry": "FR"
+		  },
+		  "openingHoursSpecification": { 
+			 "@type": "OpeningHoursSpecification",
+			 "dayOfWeek": [
+				"Monday",
+				"Tuesday",
+				"Wednesday",
+				"Thursday",
+				"Friday"
+			 ],
+			 "opens": "10:00",
+			 "closes": "19:00"
+		  }, 
+		  "areaServed": {
+			 "@type": "GeoShape",
+			 "name": "Île-de-France"
+		  }
+		}
+		</script>
 <!-- Website -->
 	<script type="application/ld+json">
 		{
@@ -67,7 +97,11 @@
 			 "@type": "GeoShape",
 			 "name": "Île-de-France"
 		  },
-		  "priceRange": "350€" 
+		  "offers": {
+    			"@type": "Offer",
+    			"priceCurrency": "EUR", 
+    			"price": "350"
+  			}
 		}
 	</script>
 	<script type="application/ld+json">
@@ -84,7 +118,11 @@
 			 "@type": "GeoShape",
 			 "name": "Île-de-France"
 		  },
-		  "priceRange": "50€" 
+		  "offers": {
+			"@type": "Offer",
+			"priceCurrency": "EUR", 
+			"price": "50"
+		 }
 		}
 	</script>
 	<script type="application/ld+json">
@@ -101,7 +139,11 @@
 			 "@type": "GeoShape",
 			 "name": "Île-de-France"
 		  },
-		  "priceRange": "400€" 
+		  "offers": {
+			"@type": "Offer",
+			"priceCurrency": "EUR", 
+			"price": "400"
+		 } 
 		}
 	</script>
 	<!-- Open Graph -->
